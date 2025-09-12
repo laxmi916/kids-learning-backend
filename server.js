@@ -53,7 +53,7 @@ app.post("/quiz", async (req, res) => {
   Based on this story:
   "${story}"
 
-  Create 5 multiple-choice quiz questions for kids.
+  Create 10 multiple-choice quiz questions for kids.
   Each question must have exactly 4 options (A, B, C, D).
   Clearly mark the correct answer.
 
@@ -158,3 +158,4 @@ app.post("/math", async (req, res) => {
 // ✅ Use dynamic port for hosting (Render/Railway)
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, "0.0.0.0", () => console.log(`✅ Server running on http://0.0.0.0:${PORT}`));
+
